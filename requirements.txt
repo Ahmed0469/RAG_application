@@ -1,0 +1,10 @@
+streamlit
+langchain-community
+langchain-text-splitters
+llama-index-core
+llama-index-embeddings-huggingface
+llama-index-vector-stores-qdrant
+llama-index-retrievers-bm25
+llama-index-llms-groq
+qdrant-client
+pypdf
