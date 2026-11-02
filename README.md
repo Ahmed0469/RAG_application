@@ -99,7 +99,7 @@ When deploying on Streamlit Community Cloud, add the key under **App settings â†
 ### Run
 
 ```bash
-streamlit run src/app.py
+streamlit run src/streamlit_app.py
 ```
 
 Then open the local URL Streamlit prints (usually `http://localhost:8501`), upload a PDF, wait for the **Hybrid index ready** badge, and start asking questions.
