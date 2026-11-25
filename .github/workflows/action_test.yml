@@ -1,0 +1,18 @@
+name: Action Test
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # every 6 hours (UTC)
+  workflow_dispatch:         # manual run button
+
+jobs:
+  visit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Visit app
+        run: python action_test.py
